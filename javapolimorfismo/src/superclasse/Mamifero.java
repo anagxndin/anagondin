@@ -13,7 +13,15 @@ public class Mamifero extends Animal{
     }
 
     public void alimentar(){
-        System.out.println("Mamífero está mamando.");;
+        System.out.println("Mamífero está mamando.");
+    }
+
+    public void locomover(){
+        System.out.println("Mamífero está andando.");
+    }
+
+    public void emitirSom(){
+        System.out.println("Som padrão do mamífero.");
     }
 
     public String getCorDePelo() {

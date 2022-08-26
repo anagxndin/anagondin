@@ -1,6 +1,7 @@
 package superclasse;
 
-public class Animal {
+//abstract: não gerta objeto, serve apenas como classe modelo
+public abstract class Animal {
 
     protected double peso;
     protected int idade;
